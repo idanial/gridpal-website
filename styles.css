@@ -113,15 +113,6 @@ h1 {
   filter: drop-shadow(0 40px 80px rgba(8, 10, 20, 0.65));
 }
 
-.glow {
-  position: absolute;
-  width: 340px;
-  height: 340px;
-  background: radial-gradient(circle, var(--glow), transparent 65%);
-  filter: blur(10px);
-  z-index: -1;
-}
-
 .legal {
   display: flex;
   gap: 16px;
