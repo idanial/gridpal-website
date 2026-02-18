@@ -11,6 +11,14 @@
   --ring: rgba(148, 163, 184, 0.3);
 }
 
+@font-face {
+  font-family: "Mattone";
+  src: url("assets/fonts/Mattone-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -59,8 +67,10 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: clamp(2.6rem, 4vw, 3.6rem);
+.hero h1 {
+  font-family: "Mattone", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: clamp(2.2rem, 3.4vw, 3.2rem);
+  font-weight: 700;
   margin: 0;
   line-height: 1.05;
 }
@@ -68,8 +78,8 @@ h1 {
 .subheader {
   color: var(--muted);
   font-size: 1.05rem;
-  line-height: 1.6;
-  margin: 0 0 24px;
+  line-height: 1.5;
+  margin: 0 0 32px;
   max-width: 460px;
 }
 
